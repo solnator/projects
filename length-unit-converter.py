@@ -1,13 +1,12 @@
-########### Question 14 #########         
-#********** UNIT CONVERTER **********
+# ********** UNIT CONVERTER **********
 
 value = float(input("Enter a length: "))
 unit_from = input("Enter the unit to convert from (inch, yard, mile, km, m, cm): ")
 unit_to = (
     input("Enter the unit to convert to (inch, yard, mile, km, m, cm): ")
-    .strip()                     
+    .strip()
     .lower()
-)      ###.strip() means space/blank/whitespace remover.
+)  ###.strip() means space/blank/whitespace remover.
 
 if unit_from == "inch":
     if unit_to == "yard":
