@@ -6,7 +6,7 @@ unit_to = (
     input("Enter the unit to convert to (inch, yard, mile, km, m, cm): ")
     .strip()
     .lower()
-)  ###.strip() means space/blank/whitespace remover.
+)
 
 if unit_from == "inch":
     if unit_to == "yard":
