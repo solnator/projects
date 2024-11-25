@@ -1,23 +1,10 @@
-nums = [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-]
-if 3 in nums:
-    print("your list have contains THREE.")
-# print(nums)
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+x = eval(input())
+if x in nums:
+    print("Your list have contains.")
+else:
+    print("There is no contains on your list")
+
 
 x = input("Enter a numbers: ")
 print("The first number is: ", x[0])
